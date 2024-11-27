@@ -12,8 +12,8 @@ The models and analysis help demonstrate how machine learning can enhance decisi
 
 - **Data Preprocessing**:
 
-  - Cleaned and normalized raw data to handle missing values and outliers.
-  - Encoded categorical features such as genre, artist names, and track popularity.
+  - Cleaned and normalized raw data.
+  - Encoded categoritarget label.
 
 - **Exploratory Data Analysis (EDA)**:
 
@@ -22,8 +22,7 @@ The models and analysis help demonstrate how machine learning can enhance decisi
 
 - **Machine Learning Models**:
 
-  - Developed classification and regression models for tasks such as:
-    - Predicting song popularity.
+  - Developed classification models for tasks such as:
     - Classifying genres based on song attributes.
   - Experimented with ensemble methods (e.g., Random Forest, Gradient Boosting) and optimized hyperparameters for performance.
 
@@ -37,7 +36,7 @@ The models and analysis help demonstrate how machine learning can enhance decisi
 
 - **Programming Language**: Python
 - **Libraries**: NumPy, pandas, scikit-learn, matplotlib, seaborn
-- **Machine Learning**: Regression models, classification algorithms, ensemble methods
+- **Machine Learning**: Classification algorithms, ensemble methods
 - **Cloud Services**: AWS S3, SageMaker, Lambda (todo)
 - **Visualization**: matplotlib, seaborn
 
@@ -52,8 +51,7 @@ The models and analysis help demonstrate how machine learning can enhance decisi
   - Popular songs often exhibit a balance between acousticness and instrumentalness.
 
 - **Model Performance**:
-  - **Genre Classification**: Achieved an accuracy of **85%** using a Random Forest Classifier.
-  - **Popularity Prediction**: Achieved an R² score of **0.78** using Gradient Boosting Regressor.
+  - **Genre Classification**: Achieved an accuracy of **62.66%** using a Tuned Gradient Boosting.
 
 ---
 
